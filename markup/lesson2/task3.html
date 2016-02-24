@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <from name="test" action="/">
+   Name<br>
+        <input type="text" name="name"><br> 
+        <br>Email<br>
+        <input type="text" name="email"><br> 
+        <br>Sex<br>
+        <input type="radio" name="gender" value="male">Male
+   <input type="radio" name="gender" value="female">Female<br>
+   <br>Current status <br>
+   <input type="checkbox" name="status" value="student">Student<br>
+    <input type="checkbox" name="status" value="employed">Employed<br>
+     <input type="checkbox" name="status" value="UNEMPLOYED">Unemployed<br>
+     <br>Month and Year of Birth<br>
+     <input type="date"><br>
+     <br>Skills and Technologies<br>
+       <select>
+           <optgroup label="Tech skills">
+               <option value="html" label="HTML"></option>
+               <option value="css" label="CSS"></option>
+               <option value="js" label="JavaScript"></option>
+               <option value="git" label="git"></option>
+           </optgroup>
+           <optgroup label="Soft skills">
+               <option value="tm" label="Time managment"></option>
+               <option value="pr" label="Proactivity"></option>
+               <option value="tw" label="Teamwork"></option>
+               <option value="lsh" label="Leadership"></option>
+           </optgroup>
+       </select><br>
+     <br>Photo<br>
+     <input type="file"><br>
+     <br>Comments<br>
+       <textarea rows="4" cols="20" name="comment"></textarea>
+   </from> 
+</body>
+</html>
