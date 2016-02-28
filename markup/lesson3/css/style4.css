@@ -11,5 +11,7 @@ ul {
 }
 
 span {
+    display: inline-block;
+    transform: rotate(90deg);
     color: #f70;
 }
