@@ -1,0 +1,16 @@
+table, td {
+    border-collapse: collapse;
+}
+        
+td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+td:nth-child(2n+3) {
+    background: #f2f2de;
+}
+
+tr:nth-child(even) {
+    background: #ddebf7;
+}
