@@ -1,0 +1,32 @@
+div {
+    width: 700px;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+a {
+    color: #e600e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px 0 0;
+    float: left;
+}
+
+.number {
+    background-color: white;
+    padding: 7px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;  
+}
+
+a.number:hover {
+    background-color: #e600e6;
+    color: white;
+}

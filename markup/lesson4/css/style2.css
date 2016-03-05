@@ -1,0 +1,48 @@
+div {
+    width: auto;
+    height: 39px;
+    background-color: #e066ff;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 900px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+li:first-child {
+    margin-left: 60px;
+}
+
+li:hover {
+    background-color: #e6e6e6;
+    color: #8c8c8c;
+    outline: solid #e3e3e3 1px;
+    box-shadow: 0px 1px 1px #cacaca;
+}
+    
+ul li {
+    float: left;
+    margin: 0;
+    list-style-type: none;
+}
+
+li:last-child {
+    position: relative;
+    left: 700px;
+}
