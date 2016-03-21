@@ -1,0 +1,108 @@
+body {
+    background: url("images/bg.png") repeat;
+    background-size: 100%;
+    font-family: "Trebuchet MS";
+
+}
+
+h2 {
+    font-size: 40px;
+    font-family: "Trebuchet MS";
+    color: #3170a8;
+    text-transform: uppercase;
+    position: relative;
+    width: 100%;
+    left: 38%;
+    top: 6%;
+}
+
+span {
+    color: #ee8129;
+}
+
+section {
+    position: absolute;
+    display: inline-block;
+    width: 85%;
+    left: 5%;
+    top: 20%;
+}
+
+.name:before {
+    content: "-";
+}
+
+.review1 {
+    position: absolute;
+    left: 12%;
+    width: 35%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.review1::before {
+    content: '';
+    position: absolute;
+    left: -20px; bottom: 40px;
+    border: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+
+.review2 {
+    position: absolute;
+    width: 35%;
+    left: 69%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.review2::before {
+    content: '';
+    position: absolute;
+    left: -20px; bottom: 40px;
+    border: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+
+img {
+    float: left;
+}
+
+.img2 {
+    position: absolute;
+    right: 35%;
+}
+
+.header {
+    position: absolute;
+    bottom: 50%;
+    left: 3%;
+    color: #3170a8;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.customer {
+    text-align: right;
+    position: relative;
+    bottom: 18px;
+    left: 270%;
+}
+
+.customer2 {
+    text-align: right;
+    position: relative;
+    bottom: 18px;
+    left: 400%;
+}
+
+p {
+    position: absolute;
+    top: 29%;
+    left: 3%;
+    border-top: dashed 1px;
+    right: 3%;
+    padding: 5px;
+    color: #7f7f7f;
+    font-size: 15px;
+}

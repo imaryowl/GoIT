@@ -1,0 +1,193 @@
+.offers {
+    font-family: "Trebuchet MS";
+}
+
+h2 {
+    text-align: center;
+    color: #41525c;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 30px;
+    left: 20%;
+    right: 20%;
+    top: 5%;
+    z-index: 1;
+}
+
+section {
+    position: absolute;
+    display: inline-block;
+    width: 85%;
+    height: 75%;
+    left: 18%;
+    right: 25%;
+    top: 30%;
+    margin-top: -3%;
+}
+
+.standard {
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 83%; 
+    z-index: 2;
+    border: solid #f5f5f6 2px;
+    border-radius: 5px;
+}
+
+.best_value {
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 87%;
+    left: 25%;
+    z-index: 4;
+    border: solid #ec8136 3.5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #80cee8;
+    top: -2%;
+}
+
+.ultimate {
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 83%;
+    left: 50%;
+    right: 25%;
+    z-index: 3;
+    border: solid #f5f5f6 2px;
+    border-radius: 5px;
+    left: 50%;
+}
+
+.blue {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: #37c2d3;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top: 0;
+    border-top-left-radius: 5px;
+    font-size: 22px;
+}
+
+.orange {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ec8136;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.mint {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: #1cb79a;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top: 0;
+    border-top-right-radius: 5px;
+    font-size: 22px;
+}
+
+.price {
+    text-align: center;
+}
+
+.graphics {
+    text-transform: uppercase;
+    color: #41525c;
+    font-size: 21px;
+}
+
+.number {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 80px;
+    color: #41525c;
+    letter-spacing: -5px;
+}
+
+.number:before {
+    content: "$";
+    font-size: 25px;
+    font-weight: normal;
+    vertical-align: top;
+    letter-spacing: normal;
+}
+
+.number:after {
+    content: "Montly";
+    font-size: 20px;
+    font-weight: normal;
+    vertical-align: bottom;
+    letter-spacing: normal
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+    list-style-position: inside;
+    color: #acb2ba;
+    margin: 1px;
+    padding: 6px;
+    width: 100%;
+    top: 10px;
+}
+
+ul.left li {
+   right: 31px; 
+}
+
+ul.middle li {
+    right: 27px;
+}
+
+ul.right li {
+    right: 23px;
+}
+
+li:before {
+    content: url(images/check.png);
+    padding-right: 10px;
+    margin-left: 40px;
+}
+
+li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+
+li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #3371a6;
+    padding: 9px;
+    color: #ffffff;
+    font-size: 15px;
+    width: 70%;
+    top: 12px;
+    left: 35px;
+    border-radius: 5px;
+    box-shadow: 0 3px #16436a;
+}
+
+.best_value .button {
+    background-color: #ec8136;
+    box-shadow: 0 3px #b1561b;
+}
+
+.bg {
+    background-color: #ffffff;
+    width: 20px;
+}
