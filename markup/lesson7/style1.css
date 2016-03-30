@@ -1,0 +1,105 @@
+.sivtsev {
+    font-family: Arial;
+    color: #000000;
+    text-shadow: 0 0 5px #6E797D;
+    margin-left: 20%;
+    line-height: 1;
+}
+
+.sight01 {
+    letter-spacing: 115px;
+    font-size: 75px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+}
+
+.sight02 {
+    letter-spacing: 50px;
+    font-size: 60px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+}
+
+.sight03 {
+    letter-spacing: 24px;
+    font-size: 55px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+    line-height: 0.8;
+}
+
+.sight04 {
+    letter-spacing: 16px;
+    font-size: 50px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+    line-height: 0.9;
+}
+
+.sight05 {
+    letter-spacing: 18px;
+    font-size: 45px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+}
+
+.sight06 {
+    letter-spacing: 13px;
+    font-size: 40px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+}
+
+.sight07 {
+    letter-spacing: 16px;
+    font-size: 35px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+}
+
+.sight08 {
+    letter-spacing: 13px;
+    font-size: 30px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+}
+
+.sight09 {
+    letter-spacing: 18.5px;
+    font-size: 20px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+    line-height: 1.2;
+}
+
+.sight10 {
+    letter-spacing: 17px;
+    font-size: 15px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+    line-height: 1.2;
+}
+.uline {
+    border-bottom: red solid 2px;
+    position: relative;
+    width: 360px;
+    padding-bottom: 1%;
+    opacity: 0.3;
+
+}
+.sight15 {
+    letter-spacing: 20px;
+    font-size: 10px;
+    color: rgba(0,0,0,0);
+    text-shadow: 0 0 3px #555;
+    line-height: 1.2;
+}
+
+.sight20 {
+    letter-spacing: 20.5px;
+    font-size: 9px;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 3px #555;
+    line-height: 1.2;
+}
+
