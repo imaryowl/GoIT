@@ -1,0 +1,582 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 1023px;
+    padding:0;
+    margin: 0;
+    outline: 0;
+    background: url("images/banner.png"), url(images/bg.png), url(images/bg2.png), url(images/map.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%, 100%, 50%;
+    background-position: center top 95px, center top 2700px, center top 1300px, right top 3024px;
+    overflow-x: hidden;
+
+}
+
+.company_name {
+    position: absolute;
+    display: block;
+    left: 10%;
+    color: #ee8129;
+    font-weight: 300;
+    font-size: 30px;
+    clear: both;
+}
+
+.company_name span {
+    color: #3070a8;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 3px;
+}
+
+.main_header .menu {
+    position: absolute;
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    left: 50%;
+    margin-top: 2%;
+    clear: both;
+}
+
+.main_header a {
+    text-decoration: none;
+    color: #989898;
+    padding: 6px;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.main_header li {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding-bottom: 30px;
+}
+
+.main_header li a:hover {
+    color: #3070a8;
+    padding-bottom: 30px;
+    border-bottom: solid #3070a8 4px;
+}
+
+.banner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 1.3;
+    bottom: 130px;
+}
+
+.banner span {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.banner p {
+    display: inline-block;
+    width: 35%;
+    position: relative;
+    font-weight: 300;
+    font-style: italic;
+    bottom: 170px;
+}
+
+.banner .button {
+    position: absolute;
+    left: 42%;
+    bottom: 90px;
+    border: rgba(255,255,255,.5) solid 1px;
+}
+
+.banner a {
+    display: block;
+    padding: 15px 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.banner .button a:hover {
+    background-color: rgba(255,255,255,.3);
+}
+
+#portfolio {
+    position: absolute;
+    display: inline-block;
+    font-family: "Trebuchet MS";
+    top: 750px;
+    width: 100%;
+}
+
+#portfolio h2 {
+    text-align: center;
+    color: #41525c;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 30px;
+}
+
+#portfolio p {
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: rgb(153, 153, 153);
+    line-height: 1.7;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 111px;
+}
+
+.icons {
+    position: relative;
+    top: 50px;
+    left: 140px;
+    text-align: center;
+}
+
+.icons h3 {
+    color: #3070a8;
+    text-transform: uppercase;
+}
+
+.protect {
+    position: absolute;
+}
+
+.icons img {
+    position: relative;
+}
+
+.alert {
+    position: absolute;
+    left: 30%;
+}
+
+.detect {
+    position: absolute;
+    left: 60%;
+}
+
+#services {
+    position: absolute;
+    top: 1370px;
+    width: 700px;
+    left: 10%;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+
+#services h2 {
+    color: #ec8136;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#services p {
+    font-size: 15px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: 100;
+    font-family: "Trebuchet MS";
+}
+
+#services ul li {
+    color: #9d9d9d;
+    padding: 7px;
+    font-size: 14px;
+}
+
+#services li:nth-child(even) {
+    color: #2b577e;
+}
+
+#pricing {
+    position: absolute;
+    display: inline-block;
+    width: 85%;
+    height: 75%;
+    left: 18%;
+    right: 25%;
+    top: 2160px;
+    margin-top: -3%;
+}
+
+#pricing .offers {
+    font-family: "Trebuchet MS";
+}
+
+#pricing h2 {
+    text-align: center;
+    color: #41525c;
+    text-transform: uppercase;
+    position: absolute;
+    font-size: 30px;
+    bottom: 620px;
+    left: 60px;
+}
+
+#pricing .standard {
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 83%;
+    z-index: 2;
+    border: solid #f5f5f6 2px;
+    border-radius: 5px;
+}
+
+#pricing .best_value {
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 87%;
+    left: 25%;
+    z-index: 4;
+    border: solid #ec8136 3.5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #80cee8;
+    top: -2%;
+}
+
+#pricing .ultimate {
+    position: absolute;
+    background-color: #ffffff;
+    width: 25%;
+    height: 83%;
+    left: 50%;
+    right: 25%;
+    z-index: 3;
+    border: solid #f5f5f6 2px;
+    border-radius: 5px;
+    left: 50%;
+}
+
+#pricing .blue {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: #37c2d3;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top: 0;
+    border-top-left-radius: 5px;
+    font-size: 22px;
+}
+
+#pricing .orange {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: #ec8136;
+    padding-top: 9%;
+    padding-bottom: 9%;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+#pricing .mint {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    background-color: #1cb79a;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin-top: 0;
+    border-top-right-radius: 5px;
+    font-size: 22px;
+}
+
+#pricing .price {
+    text-align: center;
+}
+
+#pricing .graphics {
+    text-transform: uppercase;
+    color: #41525c;
+    font-size: 21px;
+}
+
+#pricing .number {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 80px;
+    color: #41525c;
+    letter-spacing: -5px;
+}
+
+#pricing .number:before {
+    content: "$";
+    font-size: 25px;
+    font-weight: normal;
+    vertical-align: top;
+    letter-spacing: normal;
+}
+
+#pricing .number:after {
+    content: "Montly";
+    font-size: 20px;
+    font-weight: normal;
+    vertical-align: bottom;
+    letter-spacing: normal
+}
+
+#pricing ul li {
+    position: relative;
+    list-style: none;
+    list-style-position: inside;
+    color: #acb2ba;
+    margin: 1px;
+    padding: 6px;
+    width: 100%;
+    top: 10px;
+}
+
+#pricing ul.left li {
+    right: 31px;
+}
+
+#pricing ul.middle li {
+    right: 27px;
+}
+
+#pricing ul.right li {
+    right: 23px;
+}
+
+#pricing li:before {
+    content: url(images/check.png);
+    padding-right: 10px;
+    margin-left: 40px;
+}
+
+#pricing li:nth-child(even) {
+    background-color: #f5f5f6;
+}
+
+#pricing li:nth-child(odd) {
+    background-color: #edf5fd;
+}
+
+#pricing .button {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #3371a6;
+    padding: 9px;
+    color: #ffffff;
+    font-size: 15px;
+    width: 70%;
+    top: 12px;
+    left: 35px;
+    border-radius: 5px;
+    box-shadow: 0 3px #16436a;
+}
+
+#pricing .best_value .button {
+    background-color: #ec8136;
+    box-shadow: 0 3px #b1561b;
+}
+
+#pricing .bg {
+    background-color: #ffffff;
+    width: 20px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#pricing .button:hover {
+    font-weight: bold;
+}
+
+#testimonials {
+    position: absolute;
+    display: inline-block;
+    width: 85%;
+    left: 5%;
+    top: 2850px;
+    margin-bottom: 50px;
+}
+
+#testimonials h2 {
+    font-size: 40px;
+    font-family: "Trebuchet MS";
+    color: #3170a8;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    left: 38%;
+    bottom: 110px;
+}
+
+#testimonials span {
+    color: #ee8129;
+}
+
+#testimonials .name:before {
+    content: "-";
+}
+
+#testimonials .review1 {
+    position: absolute;
+    left: 12%;
+    width: 35%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#testimonials .review1::before {
+    content: '';
+    position: absolute;
+    left: -20px; bottom: 40px;
+    border: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+
+#testimonials .review2 {
+    position: absolute;
+    width: 35%;
+    left: 69%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+#testimonials .review2::before {
+    content: '';
+    position: absolute;
+    left: -20px; bottom: 40px;
+    border: 10px solid transparent;
+    border-right: 10px solid #ffffff;
+}
+
+#testimonials img {
+    float: left;
+}
+
+#testimonials .img2 {
+    position: absolute;
+    right: 35%;
+}
+
+#testimonials .header {
+    position: absolute;
+    bottom: 50%;
+    left: 3%;
+    color: #3170a8;
+    font-style: italic;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+}
+
+#testimonials .customer {
+    text-align: right;
+    position: relative;
+    bottom: 18px;
+    left: 270%;
+}
+
+#testimonials .customer2 {
+    text-align: right;
+    position: relative;
+    bottom: 18px;
+    left: 400%;
+}
+
+#testimonials p {
+    position: absolute;
+    top: 29%;
+    left: 3%;
+    border-top: dashed 1px;
+    right: 3%;
+    padding: 5px;
+    color: #7f7f7f;
+    font-family: "Trebuchet MS";
+    font-size: 15px;
+}
+
+#contact {
+    position: absolute;
+    top: 3065px;
+    color: #7f7f7f;
+}
+
+#contact p {
+    margin-left: 200px;
+    line-height: 1.5;
+}
+
+p.pin:before {
+    content: url("images/pin.png");
+    position: absolute;
+    left: 140px;
+}
+
+p.phone:before {
+    content: url(images/phone.png);
+    position: absolute;
+    left: 140px;
+}
+
+p.mail:before {
+    content: url("images/mail.png");
+    position: absolute;
+    left: 140px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+#contact a:hover {
+    color: #3170a8;
+}
+
+div .social {
+    position: relative;
+    top: 8px;
+    left: 140px;
+}
+
+.social img {
+    margin: 8px;
+}
+
+footer {
+    position: absolute;
+    top: 3375px;
+    width: 100%;
+    height: 100px;
+    background-color: #3070a8;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+footer div {
+    margin-top: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+strong {
+    font-weight: 500;
+}
+
+footer span {
+    color: #000000;
+    font-weight: 500;
+}
