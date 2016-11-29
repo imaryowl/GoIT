@@ -1,2 +1,1 @@
-# GoIT
-Front-end
+# front-end lessons
